@@ -1,0 +1,10 @@
+/* Color Theme Swatches in Hex */
+.principal { color: #034159; }
+.secundaria { color: #025951; }
+.backgroud { color: #02735E; }
+
+
+html{
+    background-color:#02735E;
+    color: #034159;
+}
