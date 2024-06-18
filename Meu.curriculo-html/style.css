@@ -1,0 +1,102 @@
+
+*/
+html{
+    background: #F2C2CF;
+    color:#3097BF;
+    width: 80%;
+    max-width: 1280px;
+    margin:auto;
+}
+p{
+    text-indent:1em;}
+h1,h2,h3,h4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+footer{
+    background:#3097BF;
+    color:  #F2C2CF;
+}
+
+.nav{
+    background:#3097BF;
+    color:  #F2C2CF;
+    position: static;
+    text-align: center;
+}
+#nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+ul.nav { 
+	margin:0; 
+	padding:0;
+	}
+	
+ul.nav li {
+	list-style:none;	
+	display:inline;
+	}
+
+.Educação{
+    display: flex;
+    flex-direction: column;
+}
+.Experiências{
+    display: flex;
+    flex-direction: column;
+}
+.vflex{
+    display: flex;
+    flex-direction: column;
+}
+#retornar ao topo{
+    text-align: center;
+}
+#Experiências{
+    position: absolute;
+    top: 660px;
+    left: 52%;
+}
+#Certificações{
+    border-top: #3097BF solid 2px;
+}
+#Habilidades{
+    border-top:#3097BF solid 2px;
+}
+#Educação{
+    max-width: 50%;
+    border-right:#3097BF solid 2px;
+}
+header{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+a{color:  #F2C2CF;
+}
+
+@media screen (max-width:768px){
+    html{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .nav{position: static;
+        width: 100%;
+        display: flex;
+        flex-direction: column}
+
+    .Educação{
+        position:relative;
+        width: 100%;}
+
+    p{text-indent: 0;}
+
+    .html{background:  #F2C2CF} }
